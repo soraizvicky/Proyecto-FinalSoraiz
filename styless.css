@@ -1,0 +1,15 @@
+.navbar{
+    background-color: darkgrey!important;
+    color: black !important;
+}
+.navbar-toggler i{
+    color:black !important;
+    position: relative !important;
+}
+.nav-link{
+    color: black !important;
+    margin-right: 15px !important;
+}
+nav-link:over{
+    color: gray !important;
+}
