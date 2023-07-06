@@ -1,15 +1,89 @@
 .navbar{
-    background-color: darkgrey!important;
+    background-color: rgb(255, 255, 255);
     color: black !important;
+}
+.navbar.toggler{
+    border: none;
 }
 .navbar-toggler i{
     color:black !important;
-    position: relative !important;
+}
+.navbar-brand{
+    justify-content: center!important;
 }
 .nav-link{
     color: black !important;
     margin-right: 15px !important;
 }
-nav-link:over{
-    color: gray !important;
+.nav-link:hover{
+    color: rgb(89, 89, 89) !important;
+}
+section{
+    padding: 70px 0;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.jumbotron{
+    background-image: url(img/noche.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 0 0 5px #333;
+    float: left;
+    width: 720px;
+    height: 770px;
+}
+h1{
+    text-align: center;
+}
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+.titulo:hover{
+    color: #898787;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.card{
+    float: right !important;
+    width:490px ;
+    height:660px ;
+    border: none;
+}
+.card-title{
+text-align: center;
+font-size: 30px;
+margin-top: 0px;
+margin-bottom: 5px;
+}
+.card-text{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.card-text2{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.btn{
+    display: !important;
+    text-align: center !important;
+    justify-content: center !important;
+    background-color: #898787;
+}
+
+.btn-primary{
+    justify-content: center !important;
+    color: black !important;
+    border-color: #898787 !important;
 }
